@@ -1,0 +1,22 @@
+{
+  "name": "star-wars-quotes-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakgajjewar/star-wars-quotes-crud.git"
+  },
+  "author": "Vinayak Gajjewar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayakgajjewar/star-wars-quotes-crud/issues"
+  },
+  "homepage": "https://github.com/vinayakgajjewar/star-wars-quotes-crud#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
