@@ -34,4 +34,11 @@ app.get("/", function(request, response) {
 app.post("/quotes", function(request, response) {
   // console.log("POST request at /quotes");
   console.log(request.body);
+  db.collection("quotes").save(request.body, function(error, result) {
+    if (error) {
+      console.log(error);
+    }
+    console.log("Quote saved to database");
+    response.redirect("/");
+  });
 });
